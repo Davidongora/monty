@@ -1,7 +1,12 @@
 #include "monty.h"
-/* Function for the nop opcode */
-void nop(stack_t **stack, unsigned int line_number) {
-    (void)stack; // Unused parameter to avoid compiler warnings
-    (void)line_number; // Unused parameter to avoid compiler warnings
-    // nop does nothing
+/**
+  *f_nop- nothing
+  *@head: stack head
+  *@counter: line_number
+  *Return: no return
+ */
+void f_nop(stack_t **head, unsigned int counter)
+{
+	(void) counter;
+	(void) head;
 }
